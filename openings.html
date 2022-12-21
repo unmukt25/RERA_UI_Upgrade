@@ -1,294 +1,301 @@
 <style type="text/css">
     .p_highlite {
-            overflow: auto;
-        }
-    
-        .panel-default {
-            background: #fff;
-            width: 340px;
-            float: left;
-            margin-left: 24px;
-            border-style: solid;
-            border-color: #cbc6c6;
-            border-width: 1px;
-        }
-    
-        .panel-default>.panel-heading {
-            background-color: #323e62;
-            padding: 5px 5px 5px 5px;
-        }
-    
-        .panel-heading>h3 {
-            line-height: 23px;
-            margin-left: 10px;
-        }
-    
-        .panel-body {
-            padding: 0px;
-            text-align: justify;
-        }
-    
-        .panel-body a {
-            color: black;
-            display: block;
-        }
-    
-        .sub-header {
-            font-size: small;
-            background-color: #d3f5ff;
-            padding: 0px 5px;
-        }
-    
-        span.end-date {
-            float: right;
-        }
-    
-        .body-right,
-        .body-left {
-            display: inline-block;
-            width: 153px;
-            text-align: center;
-            padding: 20px 30px;
-            margin-left: 10px;
-        }
-    
-        .panel-body .fa:before {
-            font-size: 30px;
-            color: #d98620;
-        }
-    
-        .panel-body>div>b {
-            font-family: sans-serif;
-        }
-    
-        tbody.data_row a {
-            text-decoration: underline;
-        }</style>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                stenographer</h3>
+        overflow: auto;
+    }
+
+    .panel-default {
+        background: #fff;
+        width: 340px;
+        float: left;
+        margin-left: 24px;
+        border-style: solid;
+        border-color: #cbc6c6;
+        border-width: 1px;
+    }
+
+    .panel-default>.panel-heading {
+        background-color: #323e62;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .panel-heading>h3 {
+        line-height: 23px;
+        margin-left: 10px;
+    }
+
+    .panel-body {
+        padding: 0px;
+        text-align: justify;
+    }
+
+    .panel-body a {
+        color: black;
+        display: block;
+    }
+
+    .sub-header {
+        font-size: small;
+        background-color: #d3f5ff;
+        padding: 0px 5px;
+    }
+
+    span.end-date {
+        float: right;
+    }
+
+    .body-right,
+    .body-left {
+        display: inline-block;
+        width: 153px;
+        text-align: center;
+        padding: 20px 30px;
+        margin-left: 10px;
+    }
+
+    .panel-body .fa:before {
+        font-size: 30px;
+        color: #d98620;
+    }
+
+    .panel-body>div>b {
+        font-family: sans-serif;
+    }
+
+    tbody.data_row a {
+        text-decoration: underline;
+    }
+</style>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            stenographer</h3>
+    </div>
+    <div class="panel-body">
+        <div class="sub-header">
+            <span class="pub-date">Publish Date:<b>11-11-2022</b></span><span class="end-date">End
+                Date:<b>11-12-2022</b></span>
         </div>
-        <div class="panel-body">
-            <div class="sub-header">
-                <span class="pub-date">Publish Date:<b>11-11-2022</b></span><span class="end-date">End Date:<b>11-12-2022</b></span></div>
-            <div class="body-left">
-                <a href="#"><i class="fa fa-bell">.</i><br />
-                <b>Notification of the Post</b></a></div>
-            <div class="body-right">
-                <a href="#"><i class="fa fa-download">.</i><br />
-                <b>Application Form</b></a></div>
+        <div class="body-left">
+            <a href="#"><i class="fa fa-bell">.</i><br />
+                <b>Notification of the Post</b></a>
+        </div>
+        <div class="body-right">
+            <a href="#"><i class="fa fa-download">.</i><br />
+                <b>Application Form</b></a>
         </div>
     </div>
-    <script>
-        document.getElementsByClassName("title")[0].innerHTML = "अवसर";
-    
-        const datalist = [
-            {
-                post: "प्रवर्तन अधिकारी",
-                notification: "https://www.rera.mp.gov.in/upload/files/Enforcement_Officer_post(18-10-2022).pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/Enforcement_Officer_post(18-10-2022)[2].pdf",
-                publishDate: "18-10-2022",
-                endDate: "10-11-2022"
-            },
-            {
-                post: "लोक अभियोजक",
-                notification: "https://www.rera.mp.gov.in/upload/files/Public_PROSECUTION_post(18-10-2022).pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/Public_PROSECUTION_post(18-10-2022)[2].pdf",
-                publishDate: "18-10-2022",
-                endDate: "10-11-2022"
-            },
-            {
-                post: "हिंदी आशुलिपिक ,सहायक ग्रेड -1 और सहायक ग्रेड -2",
-                notification: "https://www.rera.mp.gov.in/upload/files/post-steno-gradeI-gradeII-corjdm.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/post-steno-gradeI-gradeII-form.pdf",
-                publishDate: "28-09-2022",
-                endDate: "31-10-2022"
-            },
-            {
-                post: "पी.एच.पी डेवलपर अधिसूचना",
-                notification: "https://www.rera.mp.gov.in/upload/files/PHP_developer_Notification_criteria(1).pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/PHP_developer_form.pdf",
-                publishDate: "21-09-2022",
-                endDate: "30-09-2022"
-            },
-            {
-                post: "न्यायनिर्णायक अधिकारी",
-                notification: "https://www.rera.mp.gov.in/upload/files/AdjudicatingOfficer_adv(19-09-2022).pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/AdjudicatingOfficer_adv_form(2)(19-09-2022).pdf",
-                publishDate: "19-09-2022",
-                endDate: "10-10-2022"
-            },
-            {
-                post: "हिंदी आशुलिपिक, सहायक ग्रेड -1 और सहायक ग्रेड -2",
-                notification: "https://www.rera.mp.gov.in/upload/files/stenoAndGrade_I_II.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/stenoAndGrade_I_II_form.pdf",
-                publishDate: "08-04-2022",
-                endDate: "30-04-2022"
-            },
-            {
-                post: "निज स‍चिव, अनुभाग अधिकारी, सहायक ग्रेड -1 और सहायक ग्रेड -2",
-                notification: "https://www.rera.mp.gov.in/upload/files/vigyapti_18-02-2022_corrected.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/vigyapti_18-02-2022[2].pdf",
-                publishDate: "18-02-2022",
-                endDate: "11-03-2022"
-            },
-            {
-                post: "प्रशासनिक अधिकारी",
-                notification: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_Noti18-01-2022.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_form.pdf",
-                publishDate: "18-01-2022",
-                endDate: "07-02-2022"
-            },
-            {
-                post: "प्रशासनिक अधिकारी",
-                notification: "https://www.rera.mp.gov.in/upload/files/AdministrativeOfficerDec2021.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_form.pdf",
-                publishDate: "14-12-2021",
-                endDate: "07-01-2022"
-            },
-            {
-                post: "हिंदी आशुलिपिक",
-                notification: "https://www.rera.mp.gov.in/upload/files/HindiStenographer11-11-2021.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/4Stenographer_Hindi_form.pdf",
-                publishDate: "11-11-2021",
-                endDate: "15-12-2021"
-            },
-            {
-                post: "प्रशासनिक अधिकारी",
-                notification: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_Noti15-09-2021.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_form.pdf",
-                publishDate: "04-10-2021",
-                endDate: "21-10-2021"
-            },
-            {
-                post: "अनुभाग अधिकारी",
-                notification: "https://www.rera.mp.gov.in/upload/files/sectionOfficer08-09-2021.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/3section_officer_form.pdf",
-                publishDate: "08-09-2021",
-                endDate: "25-09-2021"
-            },
-            {
-                post: "सहायक ग्रेड -1",
-                notification: "https://www.rera.mp.gov.in/upload/files/NotificationGrade_I_II.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/3grade1_form.pdf",
-                publishDate: "07-09-2021",
-                endDate: "25-09-2021"
-            },
-            {
-                post: "सहायक ग्रेड -2",
-                notification: "https://www.rera.mp.gov.in/upload/files/NotificationGrade_I_II.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/3grade2_form.pdf",
-                publishDate: "07-09-2021",
-                endDate: "25-09-2021"
-            },
-            {
-                post: "चार्टर्ड एकाउंटेंट",
-                notification: "https://www.rera.mp.gov.in/upload/files/CA_Notification.pdf",
-                form: "https://www.rera.mp.gov.in/upload/files/CA_form.pdf",
-                publishDate: "26-08-2021",
-                endDate: "20-09-2021"
-            }
-    
-        ];
-    
-        const myele = document.getElementsByClassName("panel-default")[0].cloneNode(true);
-        document.getElementsByClassName("panel-default")[0].style.display = "none";
-    
-    
-        datalist.forEach(function (obj) {
-    
-            const dt = obj.endDate.split("-");
-            if (new Date(dt[2] + "-" + dt[1] + "-" + dt[0]) < new Date())
-                return;
-    
-            myele.getElementsByClassName("panel-title")[0].innerHTML = obj.post;
-            myele.querySelectorAll(".panel-body .pub-date")[0].innerHTML = "Publish Date: <b>" + obj.publishDate + "</b>";
-            myele.querySelectorAll(".panel-body .end-date")[0].innerHTML = "End Date: <b>" + obj.endDate + "</b>";
-            myele.querySelectorAll(".panel-body a")[0].href = obj.notification;
-            myele.querySelectorAll(".panel-body a")[1].href = obj.form;
-    
-    
-            document.getElementsByClassName("p_highlite")[0].appendChild(myele.cloneNode(true));
-        });
-    
-    
-    </script><!-- Previous Post Table data and style-->
-    <style type="text/css">
+</div>
+<script>
+    document.getElementsByClassName("title")[0].innerHTML = "अवसर";
+
+    const datalist = [
+        {
+            post: "प्रवर्तन अधिकारी",
+            notification: "https://www.rera.mp.gov.in/upload/files/Enforcement_Officer_post(18-10-2022).pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/Enforcement_Officer_post(18-10-2022)[2].pdf",
+            publishDate: "18-10-2022",
+            endDate: "10-11-2022"
+        },
+        {
+            post: "लोक अभियोजक",
+            notification: "https://www.rera.mp.gov.in/upload/files/Public_PROSECUTION_post(18-10-2022).pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/Public_PROSECUTION_post(18-10-2022)[2].pdf",
+            publishDate: "18-10-2022",
+            endDate: "10-11-2022"
+        },
+        {
+            post: "हिंदी आशुलिपिक ,सहायक ग्रेड -1 और सहायक ग्रेड -2",
+            notification: "https://www.rera.mp.gov.in/upload/files/post-steno-gradeI-gradeII-corjdm.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/post-steno-gradeI-gradeII-form.pdf",
+            publishDate: "28-09-2022",
+            endDate: "31-10-2022"
+        },
+        {
+            post: "पी.एच.पी डेवलपर अधिसूचना",
+            notification: "https://www.rera.mp.gov.in/upload/files/PHP_developer_Notification_criteria(1).pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/PHP_developer_form.pdf",
+            publishDate: "21-09-2022",
+            endDate: "30-09-2022"
+        },
+        {
+            post: "न्यायनिर्णायक अधिकारी",
+            notification: "https://www.rera.mp.gov.in/upload/files/AdjudicatingOfficer_adv(19-09-2022).pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/AdjudicatingOfficer_adv_form(2)(19-09-2022).pdf",
+            publishDate: "19-09-2022",
+            endDate: "10-10-2022"
+        },
+        {
+            post: "हिंदी आशुलिपिक, सहायक ग्रेड -1 और सहायक ग्रेड -2",
+            notification: "https://www.rera.mp.gov.in/upload/files/stenoAndGrade_I_II.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/stenoAndGrade_I_II_form.pdf",
+            publishDate: "08-04-2022",
+            endDate: "30-04-2022"
+        },
+        {
+            post: "निज स‍चिव, अनुभाग अधिकारी, सहायक ग्रेड -1 और सहायक ग्रेड -2",
+            notification: "https://www.rera.mp.gov.in/upload/files/vigyapti_18-02-2022_corrected.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/vigyapti_18-02-2022[2].pdf",
+            publishDate: "18-02-2022",
+            endDate: "11-03-2022"
+        },
+        {
+            post: "प्रशासनिक अधिकारी",
+            notification: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_Noti18-01-2022.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_form.pdf",
+            publishDate: "18-01-2022",
+            endDate: "07-02-2022"
+        },
+        {
+            post: "प्रशासनिक अधिकारी",
+            notification: "https://www.rera.mp.gov.in/upload/files/AdministrativeOfficerDec2021.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_form.pdf",
+            publishDate: "14-12-2021",
+            endDate: "07-01-2022"
+        },
+        {
+            post: "हिंदी आशुलिपिक",
+            notification: "https://www.rera.mp.gov.in/upload/files/HindiStenographer11-11-2021.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/4Stenographer_Hindi_form.pdf",
+            publishDate: "11-11-2021",
+            endDate: "15-12-2021"
+        },
+        {
+            post: "प्रशासनिक अधिकारी",
+            notification: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_Noti15-09-2021.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/Administrative_Officer_form.pdf",
+            publishDate: "04-10-2021",
+            endDate: "21-10-2021"
+        },
+        {
+            post: "अनुभाग अधिकारी",
+            notification: "https://www.rera.mp.gov.in/upload/files/sectionOfficer08-09-2021.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/3section_officer_form.pdf",
+            publishDate: "08-09-2021",
+            endDate: "25-09-2021"
+        },
+        {
+            post: "सहायक ग्रेड -1",
+            notification: "https://www.rera.mp.gov.in/upload/files/NotificationGrade_I_II.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/3grade1_form.pdf",
+            publishDate: "07-09-2021",
+            endDate: "25-09-2021"
+        },
+        {
+            post: "सहायक ग्रेड -2",
+            notification: "https://www.rera.mp.gov.in/upload/files/NotificationGrade_I_II.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/3grade2_form.pdf",
+            publishDate: "07-09-2021",
+            endDate: "25-09-2021"
+        },
+        {
+            post: "चार्टर्ड एकाउंटेंट",
+            notification: "https://www.rera.mp.gov.in/upload/files/CA_Notification.pdf",
+            form: "https://www.rera.mp.gov.in/upload/files/CA_form.pdf",
+            publishDate: "26-08-2021",
+            endDate: "20-09-2021"
+        }
+
+    ];
+
+    const myele = document.getElementsByClassName("panel-default")[0].cloneNode(true);
+    document.getElementsByClassName("panel-default")[0].style.display = "none";
+
+
+    datalist.forEach(function (obj) {
+
+        const dt = obj.endDate.split("-");
+        if (new Date(dt[2] + "-" + dt[1] + "-" + dt[0]) < new Date())
+            return;
+
+        myele.getElementsByClassName("panel-title")[0].innerHTML = obj.post;
+        myele.querySelectorAll(".panel-body .pub-date")[0].innerHTML = "Publish Date: <b>" + obj.publishDate + "</b>";
+        myele.querySelectorAll(".panel-body .end-date")[0].innerHTML = "End Date: <b>" + obj.endDate + "</b>";
+        myele.querySelectorAll(".panel-body a")[0].href = obj.notification;
+        myele.querySelectorAll(".panel-body a")[1].href = obj.form;
+
+
+        document.getElementsByClassName("p_highlite")[0].appendChild(myele.cloneNode(true));
+    });
+
+
+</script><!-- Previous Post Table data and style-->
+<style type="text/css">
     .panel-old {
-            border-color: #d3cdcd;
-            float: left;
-            clear: both;
-            width: 100%;
-            border-style: solid;
-            border-width: 1px;
-        }
-    
-        .panel-old>.panel-heading {
-            color: #ffffff;
-            font-weight: 700;
-            font-size: initial;
-            background-color: #323e62;
-            border-color: #d6e9c6;
-            padding: 10px 15px;
-        }
-    
-        .data_row span {
-            text-align: right;
-        }</style>
-    <div class="panel panel-old">
-        <!-- Default panel contents -->
-        <div class="panel-heading">
-            Previously Published Post</div>
-        <!-- Table -->
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>
-                        #</th>
-                    <th>
-                        Post Name</th>
-                    <th>
-                        Publish Date / End Date</th>
-                    <th>
-                        Notification / Form</th>
-                </tr>
-            </thead>
-            <tbody class="data_row">
-                <tr style="display:none">
-                    <th scope="row">
-                        0</th>
-                    <td>
-                        PHP Developer / Consultant</td>
-                    <td>
-                        Published: <span>11-11-2022</span><br />
-                        End: <span>10-12-2022</span></td>
-                    <td>
-                        <a href="#">Notification</a> / <a href="#">Form</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <script>
-    
-        const blankRow = document.querySelectorAll(".data_row tr")[0].cloneNode(true);
-        blankRow.style.display = "table-row";
-    
-        datalist.forEach(function (obj) {
-    
-            const dt = obj.endDate.split("-");
-            if (new Date(dt[2] + "-" + dt[1] + "-" + dt[0]) > new Date())
-                return;
-    
-            blankRow.querySelectorAll("th")[0].innerHTML = Number.parseInt(blankRow.querySelectorAll("th")[0].innerHTML) + 1
-            blankRow.querySelectorAll("td")[0].innerHTML = obj.post;
-            blankRow.querySelectorAll("td")[1].innerHTML = "Publish: " + obj.publishDate + "<br>End: " + obj.endDate;
-            blankRow.querySelectorAll("td a")[0].href = obj.notification;
-            blankRow.querySelectorAll("td a")[1].href = obj.form;
-    
-    
-            document.querySelectorAll(".data_row")[0].appendChild(blankRow.cloneNode(true));
-    
-        });
-    
-    </script>
+        border-color: #d3cdcd;
+        float: left;
+        clear: both;
+        width: 100%;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .panel-old>.panel-heading {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: initial;
+        background-color: #323e62;
+        border-color: #d6e9c6;
+        padding: 10px 15px;
+    }
+
+    .data_row span {
+        text-align: right;
+    }
+</style>
+<div class="panel panel-old">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+        Previously Published Post</div>
+    <!-- Table -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    #</th>
+                <th>
+                    Post Name</th>
+                <th>
+                    Publish Date / End Date</th>
+                <th>
+                    Notification / Form</th>
+            </tr>
+        </thead>
+        <tbody class="data_row">
+            <tr style="display:none">
+                <th scope="row">
+                    0</th>
+                <td>
+                    PHP Developer / Consultant</td>
+                <td>
+                    Published: <span>11-11-2022</span><br />
+                    End: <span>10-12-2022</span></td>
+                <td>
+                    <a href="#">Notification</a> / <a href="#">Form</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script>
+
+    const blankRow = document.querySelectorAll(".data_row tr")[0].cloneNode(true);
+    blankRow.style.display = "table-row";
+
+    datalist.forEach(function (obj) {
+
+        const dt = obj.endDate.split("-");
+        if (new Date(dt[2] + "-" + dt[1] + "-" + dt[0]) > new Date())
+            return;
+
+        blankRow.querySelectorAll("th")[0].innerHTML = Number.parseInt(blankRow.querySelectorAll("th")[0].innerHTML) + 1
+        blankRow.querySelectorAll("td")[0].innerHTML = obj.post;
+        blankRow.querySelectorAll("td")[1].innerHTML = "Publish: " + obj.publishDate + "<br>End: " + obj.endDate;
+        blankRow.querySelectorAll("td a")[0].href = obj.notification;
+        blankRow.querySelectorAll("td a")[1].href = obj.form;
+
+
+        document.querySelectorAll(".data_row")[0].appendChild(blankRow.cloneNode(true));
+
+    });
+
+</script>
