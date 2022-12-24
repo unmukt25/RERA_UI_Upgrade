@@ -230,7 +230,7 @@
             const dt = obj.endDate.split("-");
             if (new Date(dt[2] + "-" + dt[1] + "-" + dt[0]) < new Date())
                 return;
-    
+    // following error do not need to correct as this code works correctly when we put it in rera cms text editor
             myele.getElementsByClassName("panel-title")[0].innerHTML = obj.post + "<div class=\\"blink_me\\">New</div>";
             myele.querySelectorAll(".panel-body .pub-date")[0].innerHTML = "Publish Date: <b>" + obj.publishDate + "</b>";
             myele.querySelectorAll(".panel-body .end-date")[0].innerHTML = "End Date: <b>" + obj.endDate + "</b>";
