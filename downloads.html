@@ -1,0 +1,337 @@
+<style type="text/css">
+    em.glyph-icon {
+        color: transparent;
+    }
+
+    .glyph-icon {
+        font-size: 34px;
+        padding-right: 6px;
+        font-weight: normal;
+        color: #484848;
+    }
+
+    .flaticon-building:before {
+        color: #2b00b9;
+    }
+
+    .flaticon-people:before {
+        color: #00aad0;
+    }
+
+    .flaticon-home:before {
+        color: #df3a00;
+    }
+
+    .nav.nav-tabs>li>a {
+        padding: 3px 27px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .nav>li>a:hover {
+        border-color: #b9b9b9;
+    }
+
+    .panel-default {
+        background: #fff;
+    }
+
+    ul.download-data a {
+        color: #2c2c2c;
+    }
+</style>
+<script>
+    function updateActive(num) {
+        document.querySelectorAll(".nav.nav-tabs li")[0].className = "";
+        document.querySelectorAll(".nav.nav-tabs li")[1].className = "";
+        document.querySelectorAll(".nav.nav-tabs li")[2].className = "";
+
+        document.querySelectorAll(".nav.nav-tabs li")[num].className = "active";
+
+        let arryData = [];
+        arryData[0] = document.querySelectorAll(".projectList")[0].innerHTML;
+        arryData[1] = document.querySelectorAll(".agentList")[0].innerHTML;
+        arryData[2] = document.querySelectorAll(".complaintList")[0].innerHTML;
+
+        document.querySelectorAll(".download-data")[0].innerHTML = arryData[num];
+    }
+
+</script>
+<p>
+    following is the list of various formats which are used while working on RERA portal.</p>
+<ul class="nav nav-tabs">
+    <li class="active" onclick="updateActive(0)">
+        <a href="javascript:void(0)"><em class="glyph-icon flaticon-building">.</em>Projects</a>
+    </li>
+    <li onclick="updateActive(1)">
+        <a href="javascript:void(0)"><em class="glyph-icon flaticon-people">.</em>Agents</a>
+    </li>
+    <li onclick="updateActive(2)">
+        <a href="javascript:void(0)"><em class="glyph-icon flaticon-home">.</em>Complaints</a>
+    </li>
+</ul>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <ul class="download-data">
+        </ul>
+    </div>
+</div>
+<!--********** Data for populating containers ***************-->
+<ul class="projectList" style="display: none;">
+    <li>
+        <a href="javascript:void(0)" target="_blank">Documents to be attached while PROJECT Registration</a>
+        <ul>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/264764147674.pdf" target="_blank">Schedule A - For
+                    Plotted Projects</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/645222664296.pdf" target="_blank">Schedule A - For
+                    Constructed Projects</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/519208200540.doc" target="_blank">Format - 2A CHARTERED
+                    ACCOUNTANT CERTIFICATE - While registration of New/ On-going Project</a>
+                <ul>
+                    <li>
+                        <a href="https://www.rera.mp.gov.in/upload/files/559100015111.docx" target="_blank">Sample for
+                            Format - 2A CHARTERED ACCOUNTANT CERTIFICATE - While registration of Ongoing Project</a>
+                        <ul>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/742789672137.pdf" target="_blank">Form B - Affidavit
+                    cum Declaration</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/312212261454.pdf" target="_blank">Schedule C - For
+                    Plotted Projects (Guidelines for construction linked Payment Schedule for plotted development
+                    Projects) (06-07-2021)</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/335252115521.pdf" target="_blank">Schedule C - For
+                    Individual Houses/Duplex/Villas/etc (Guidelines for construction of Individual
+                    Houses/Duplex/Villas/etc Projects) (06-07-2021)</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/558276185225.pdf" target="_blank">Schedule C - For
+                    Multistoried Buildings Projects (Guidelines for Multistoried Buildings linked Payment Schedule for
+                    plotted development Projects) (06-07-2021)</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/957556179775.pdf" target="_blank">Schedule D (New) -
+                    for Specifications of the Project</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/661654546495.pdf" target="_blank">Schedule E - For
+                    Constructed Projects</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/558866591195.pdf" target="_blank">Schedule E- Basic
+                    Information of the Project</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/668144776756.pdf" target="_blank">Schedule E - For
+                    Plotted Projects</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/111575209151.pdf" target="_blank">Schedule G- for Cost
+                    Estimate in Respect of Ongoing/new Projects</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/115171761712.pdf" target="_blank">Schedule H- for Cost
+                    Estimate &amp; Quarter wise Estimated Progress of the Project</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/717510110977.docx" target="_blank">Agreement for Sale -
+                    Updated on July 29, 2017</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/111274461076.docx" target="_blank">Agreement for Sale -
+                    Hindi Version</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/991319193195.pdf" target="_blank">Notarized Affidavit
+                    and Proclamation to be submitted by the Promoter for the Registration of the New Project</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/715465799157.doc" target="_blank">Format - 1 ENGINEER
+                    CERTIFICATE - Multi storied Building Projects - Updated on September 5, 2019</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/281811101168.doc" target="_blank">Format - 1 ENGINEER
+                    CERTIFICATE - Plotted/ Row House/ Duplex Projects - Updated on September 5, 2019</a>
+                <ul>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="javascript:void(0)" target="_blank">Documents to be attached after PROJECT Registration - Quarterly</a>
+        <ul>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/088551187825.doc" target="_blank">Format - 2C CHARTERED
+                    ACCOUNTANT CERTIFICATE - Quarterly</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/927182371558.doc" target="_blank">Format - 1 ENGINEER
+                    CERTIFICATE - Multi storied Building Projects - Updated on September 5, 2019 - Quarterly</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/172319171771.doc" target="_blank">Format - 1 ENGINEER
+                    CERTIFICATE - Plotted/ Row House/ Duplex Projects - Updated on September 5, 2019 - Quarterly</a>
+                <ul>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+<ul class="agentList" style="display: none;">
+    <li>
+        <a href="javascript:void(0)" target="_blank">Documents for Real Estate Agent</a>
+        <ul>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/033953000590.docx" target="_blank">Format - 3 Annual
+                    return of transactions by Registered REAL ESTATE AGENT</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/999999494941.pdf" target="_blank">Notarized Affidavit
+                    to be given by Real Estate Agent while registering as &quot;Individual&quot;</a>
+                <ul>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="javascript:void(0)" target="_blank">Miscellaneous</a>
+        <ul>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/208102222348.pdf" target="_blank">Guideline for
+                    Designated Account</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/521415332575.pdf" target="_blank">Guidelines for Club
+                    Membership in real estate projects</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/141514066554.pdf" target="_blank">Guidelines on
+                    maintenance charges</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/125121221221.pdf" target="_blank">Guidelines for
+                    completion of project</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/335377139137.pdf" target="_blank">Format of Notarized
+                    Affidavit for change in Designated Bank Account</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/410444455571.pdf" target="_blank">Guidelines for
+                    Quarterly return of Registered Project</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/515144041545.pdf" target="_blank">Guidelines in
+                    Complaints related to Withdrawal of Registered Project</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/004520447720.pdf" target="_blank">Transfer of Real
+                    Estate Project to another Promoter</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/250855821380.pdf" target="_blank">Guidelines of indent
+                    to be issued to the Allottees by the Promoter</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/517735147935.pdf" target="_blank">Mortgage Plot /
+                    Apartment / Independent House release - Rules, Application Form and Checklist</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/118188185919.pdf" target="_blank">Model (standard)
+                    format for handing over possession of Plot / Apartment / Independent House</a>
+                <ul>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+<ul class="complaintList" style="display: none;">
+    <li>
+        <a href="javascript:void(0)" target="_blank">Complaint</a>
+        <ul>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/099099883867.pdf" target="_blank">Letter of Compromise
+                    ( Applicant )</a>
+                <ul>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.rera.mp.gov.in/upload/files/117370380043.pdf" target="_blank">Letter of Compromise
+                    ( Non Applicant )</a>
+                <ul>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+<!-- for initializing page with default value "project list" -->
+<script>updateActive(0)</script>
